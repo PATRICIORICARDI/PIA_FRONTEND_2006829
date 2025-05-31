@@ -5,7 +5,6 @@ import { Card } from "primereact/card";
 import "./HomePage.scss";
 import type { MenuItem } from "primereact/menuitem";
 import { Rating } from "primereact/rating";
-import { Ripple } from "primereact/ripple";
 import patoImage from "../public/pato.png";
 import pechugaImage from "../public/pechuga.png";
 import comboImage from "../public/combo.png";
@@ -284,11 +283,7 @@ const HomePage: React.FC = () => {
           <div className="footer-columns">
             <div className="footer-column">
               <h4>Enlaces rápidos</h4>
-              <ul>
-                {menuItems.map((item, idx) => (
-                  <li key={idx}></li>
-                ))}
-              </ul>
+              <ul></ul>
             </div>
 
             <div className="footer-column">
